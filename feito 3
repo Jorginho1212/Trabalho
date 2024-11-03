@@ -1,0 +1,10 @@
+# Leitura dos três números inteiros
+num1 = int(input("Digite o primeiro número: "))
+num2 = int(input("Digite o segundo número: "))
+num3 = int(input("Digite o terceiro número: "))
+
+# Determinação do menor número
+menor = min(num1, num2, num3)
+
+# Exibição do menor número
+print(f"O menor número é: {menor}")
