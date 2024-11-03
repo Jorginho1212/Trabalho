@@ -1,0 +1,10 @@
+def inverte_palavras(frase):
+    # Divide a frase em palavras, inverte cada uma e junta-as novamente em uma string
+    palavras_invertidas = [palavra[::-1] for palavra in frase.split()]
+    frase_invertida = " ".join(palavras_invertidas)
+    return frase_invertida
+
+# Exemplo de chamada da função
+frase = input("Digite uma frase: ")
+nova_frase = inverte_palavras(frase)
+print(f"Frase com palavras invertidas: '{nova_frase}'")
