@@ -1,0 +1,7 @@
+def processa_frase(frase):
+    # Aqui você pode adicionar o que deseja fazer com a frase
+    print(f"A frase recebida foi: '{frase}'")
+
+# Exemplo de chamada da função
+frase = input("Digite uma frase: ")
+processa_frase(frase)
